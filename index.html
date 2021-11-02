@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <link rel ="stylesheet" href = "css/html5reset.css">
+        <link rel ="stylesheet" href ="css/style.css">
+        <link rel ="icon" type= "image/jpeg" href ="images/Artboard 1.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            $(function(){
+                $('a').each(function(){
+                    if ($(this).prop('href') == window.location.href) {
+                        $(this).addClass('active'); $(this).parents('li').addClass('active');
+                    }
+                });
+            });
+        </script>
+        <title>ANDERS LUNDIN - HOME</title>
+    </head>
+    <body>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <nav>
+            <img src="/images/logo_white_real.png" alt="Anders Lundin" id = "logo">
+            <ul>
+                <li><a href= "index.html">HOME</a></li>
+                <li><a href= "items.html">ITEMS</a></li>
+                <li><a href= "about_me.html">ABOUT ME</a></li>
+                <li><a href= "contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <main class = "container">
+
+        <!-- <div class = "grateful-delt-image">
+            <img src = "images/hattie.jpg">
+        </div> -->
+
+
+        <!-- <script>
+            const observer = new IntersectionObserver(entries => {
+                // Loop over the entries
+                entries.forEach(entry => {
+                // If the element is visible
+                if (entry.isIntersecting) {
+                    // Add the animation class
+                    entry.target.classList.add('threepeat');
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('.intro'));
+        </script> -->
+
+        
+        <div class = "intro">
+            <a id="intro-body"></a>
+            <div class = "intro-text">
+            <h1>FASHION <br> BY ME</h1>
+            <p>Throughout my time at the University of <br>Michigan, 
+                I have gotten the opportunity to <br> design a number of 
+                wearable pieces <br>accross my different clubs, activities, 
+                and <br>interactions.
+            </p> 
+            </div>
+        </div>
+
+        <div class = "grateful-delt">
+            <a id ="grateful-delt-body"></a>
+            <h2><a href = "items.html#grateful-delt-body">GRATEFUL <br> DELT</a></h2>
+        </div>
+
+        <div class = "tonie-arcon">
+            <a id= "tonie-arcon-body"></a>
+            <h2><a href = "items.html#tonie-arcon-body">TONIE <br> ARCON</a></h2>
+        </div>
+
+        <div class = "earring-designs">
+            <a id = "earring-designs-body"></a>
+            <h2><a href = "items.html#earring-designs-body">EARRING <br> DESIGNS</a></h2>
+        </div>
+
+        <div class = "welcome-week">
+            <a id = "welcome-week-body"></a>
+            <h2><a href = "items.html#welcome-week-body">WELCOME<br> WEEK <br> "CHAMPIONS"</a></h2>
+        </div>
+
+        <div class = "fall-rush-2021">
+            <a id = "fall-rush-2021-body"></a>
+            <h2><a href = "items.html#fall-rush-2021-body">FALL <br> RUSH <br> 2021</a></h2>
+        </div>
+
+        <div class = "pank-hoodies">
+            <a id = "pank-hoodies-body"></a>
+            <h2><a href = "items.html#pank-hoodies-body">PANK <br> HOODIES</a></h2>
+        </div>
+
+        <div class = "dtd-x-piphi">
+            <a id = "dtd-x-piphi-body"></a>
+            <h2><a href = "items.html#dtd-x-piphi-body">DTD x PIPHI</a></h2>
+        </div>
+
+        <div class = "fall-rush-2020">
+            <a id = "fall-rush-2020-body"></a>
+            <h2><a href = "items.html#fall-rush-2020-body">FALL <br> RUSH <br> 2020</h2>
+        </div>
+
+        <div class = "winter-rush-2020">
+            <a id = "winter-rush-2020-body"></a>
+            <h2><a href = "items.html#winter-rush-2020-body">WINTER <br> RUSH <br> 2020</h2>
+        </div>
+
+        <div class = "dtd-quarantine">
+            <a id = "dtd-quarantine-body"></a>
+            <h2><a href = "items.html#dtd-quarantine-body">DTD QUARANTINE</a></h2>
+        </div>
+
+        </main>
+        <footer>University of Michigan School of Information <br/>
+            &copy; Anders Lundin 2021</footer>
+    </body>
+</html>
+
+
