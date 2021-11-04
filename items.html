@@ -7,16 +7,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script>
-            $(function(){
-                $('a').each(function(){
-                    if ($(this).prop('href') == window.location.href) {
-                        $(this).addClass('active'); $(this).parents('li').addClass('active');
-                    }
-                });
-            });
-        </script>
         <title>ANDERS LUNDIN - ITEMS</title>
     </head>
     <body>
@@ -169,7 +159,18 @@
                 </p>
             
             </main>
+        
             <footer>University of Michigan School of Information <br/>
                 &copy; Anders Lundin 2021</footer>
+            <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+            <script>
+                $(function(){
+                    $('a').each(function(){
+                        if ($(this).prop('href') == window.location.href) {
+                            $(this).addClass('active'); $(this).parents('li').addClass('active');
+                        }
+                    });
+                });
+            </script>
     </body>
 </html>
