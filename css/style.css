@@ -31,18 +31,19 @@ nav ul{
     list-style-type: none;
     text-align: right;
     margin-bottom:15px;
-    padding-right:6px;
+    padding-right:10px;
 }
 
 nav li{
     display: inline;
     color: white;
-    padding-right: 10px;
+    padding-right: 6px;
     padding-left: 5px;
 }
 
 #home{
-    text-decoration: white underline;
+    text-decoration-color: white;
+    text-decoration: underline;
 }
 
 nav a{
@@ -337,6 +338,51 @@ footer{
     position: absolute;
 }
 
+@media only screen and (max-device-width: 1366px) {
+    .intro {
+      background-attachment: scroll;
+    }
+    .grateful-delt {
+        background-attachment: scroll;
+    }
+
+    .tonie-arcon {
+        background-attachment: scroll;
+      }
+
+    .earring-designs {
+      background-attachment: scroll;
+    }
+
+    .welcome-week {
+      background-attachment: scroll;
+    }
+    
+    .fall-rush-2021 {
+      background-attachment: scroll;
+    }
+
+    .pank-hoodies {
+      background-attachment: scroll;
+    }
+
+    .dtd-x-piphi {
+      background-attachment: scroll;
+    }
+
+    .fall-rush-2020{
+      background-attachment: scroll;
+    }
+    
+    .winter-rush-2020 {
+      background-attachment: scroll;
+    }
+
+    .dtd-quarantine{
+      background-attachment: scroll;
+    }
+  }
+
 /* -------ANIMATION CODE------- */
 @keyframes threepeat {
     0% {
@@ -346,3 +392,4 @@ footer{
         transform: scale(1, 0.25);
     }
 }
+

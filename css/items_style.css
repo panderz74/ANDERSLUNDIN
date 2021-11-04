@@ -19,7 +19,8 @@ nav{
 }
 
 nav .active {
-    text-decoration: white underline;
+    text-decoration-color: white;
+    text-decoration: underline;
 }
 
 nav img{
