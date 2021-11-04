@@ -271,7 +271,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 10 / span 1;
-    background-image: url("../images/luca.jpg");
+    background-image: url("../images/luca.png");
     background-repeat: no-repeat;
 }
 
