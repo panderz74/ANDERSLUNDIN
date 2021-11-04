@@ -1,5 +1,5 @@
 body{
-    background: white;
+    background: black;
     font-family: Helvetica, sans-serif;
     font-size: 32px;
     color:white;
@@ -41,7 +41,7 @@ nav li{
     padding-left: 5px;
 }
 
-nav ul :first-child(){
+#home{
     text-decoration: white underline;
 }
 
@@ -97,6 +97,7 @@ h2{
     background-size: cover; 
     color: white;
     height: 100vh; 
+    width:100%;
     grid-column: 1 / -1;
     grid-row: 1 / span 1;
     background-image: url("../images/Tonie.jpg");
@@ -104,7 +105,7 @@ h2{
 }
 
 .intro-text h1{
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -135,7 +136,7 @@ h2{
 
 .grateful-delt h2{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     margin-top: 80px;
     padding-top:75vh;
     padding-left:6vh;
@@ -156,7 +157,7 @@ h2{
 .tonie-arcon h2{
     position: absolute;
     right:0;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:15vh;
     padding-right:30px;
 }
@@ -175,7 +176,7 @@ h2{
 
 .earring-designs h2{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:70vh;
     padding-right:30px;
     padding-left:30px;
@@ -189,13 +190,13 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 5 / span 1;
-    background-image: url("../images/_MG_5982.jpg");
+    background-image: url("../images/will.jpg");
     background-repeat: no-repeat;
 }
 
 .welcome-week h2{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:70vh;
     right:0;
     padding-right:30px;
@@ -216,7 +217,7 @@ h2{
 
 .fall-rush-2021 h2{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:20vh;
     padding-right:30px;
     padding-left:60px;
@@ -237,7 +238,7 @@ h2{
 .pank-hoodies h2{
     position: absolute;
     right:0;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:15vh;
     padding-right:30px;
 }
@@ -256,7 +257,7 @@ h2{
 
 .dtd-x-piphi h2{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:80vh;
     padding-left:280px;
     text-align:center;
@@ -270,14 +271,14 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 10 / span 1;
-    background-image: url("../images/_MG_6037.jpg");
+    background-image: url("../images/luca.jpg");
     background-repeat: no-repeat;
 }
 
 .fall-rush-2020 h2{
     position: absolute;
     right:0;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:10vh;
     padding-right: 30px;
     text-align:right;
@@ -298,7 +299,7 @@ h2{
 .winter-rush-2020 h2{
     position: absolute;
     right:0;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:10vh;
     padding-right: 30px;
     text-align:right;
@@ -318,7 +319,7 @@ h2{
 
 .dtd-quarantine h2{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     padding-top:70vh;
     padding-right:30px;
     padding-left:30px;
