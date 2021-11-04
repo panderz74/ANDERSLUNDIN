@@ -171,7 +171,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 4 / span 1;
-    background-image: url("../images/jewelrydesigns.jpg");
+    background-image: url("../images/jewelrydesigns2.jpg");
     background-repeat: no-repeat;
 }
 
@@ -191,7 +191,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 5 / span 1;
-    background-image: url("../images/will.jpg");
+    background-image: url("../will.jpg");
     background-repeat: no-repeat;
 }
 
@@ -212,7 +212,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 6 / span 1;
-    background-image: url("../images/stars.jpg");
+    background-image: url("../images/fr2021.jpg");
     background-repeat: no-repeat;
 }
 
@@ -232,7 +232,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 7 / span 1;
-    background-image: url("../images/items_template.jpg");
+    background-image: url("../images/ph.jpg");
     background-repeat: no-repeat;
 }
 
@@ -252,7 +252,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 8 / span 1;
-    background-image: url("../images/stars.jpg");
+    background-image: url("../images/dtdpp.jpg");
     background-repeat: no-repeat;
 }
 
@@ -272,7 +272,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 10 / span 1;
-    background-image: url("../images/luca.png");
+    background-image: url("../luca.png");
     background-repeat: no-repeat;
 }
 
@@ -293,7 +293,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 11 / span 1;
-    background-image: url("../images/items_template.jpg");
+    background-image: url("../images/wr2020.jpg");
     background-repeat: no-repeat;
 }
 
@@ -314,7 +314,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 12 / span 1;
-    background-image: url("../images/stars.jpg");
+    background-image: url("../images/q.jpg");
     background-repeat: no-repeat;
 }
 

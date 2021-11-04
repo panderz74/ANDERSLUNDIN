@@ -19,8 +19,7 @@ nav{
 }
 
 nav .active {
-    text-decoration-color: white;
-    text-decoration: underline;
+    text-decoration: white underline;
 }
 
 nav img{
@@ -41,7 +40,8 @@ nav ul{
 }
 
 #items{
-    text-decoration: white underline;
+    text-decoration-color: white;
+    text-decoration: underline;
 }
 
 nav li{
