@@ -116,7 +116,10 @@ h2{
     right:0px;
     margin-left:58vw;
     margin-top:25vh;
-    margin-right:30px;
+    padding:10px;
+    padding-right:50px;
+    background-color:rgba(0, 0, 0, 0.5);
+    
 }
 
 .intro-text p{
@@ -138,9 +141,10 @@ h2{
 .grateful-delt h2{
     position: absolute;
     font-size: 1em;
-    margin-top: 80px;
-    padding-top:75vh;
+    margin-top: 75vh;
+    padding:10px;
     padding-left:6vh;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .tonie-arcon{
@@ -157,10 +161,12 @@ h2{
 
 .tonie-arcon h2{
     position: absolute;
-    right:0;
     font-size: 1em;
-    padding-top:15vh;
-    padding-right:30px;
+    margin-top:15vh;
+    padding-left:30px;
+    padding:10px;
+    padding-left:6vh;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .earring-designs{
@@ -178,9 +184,11 @@ h2{
 .earring-designs h2{
     position: absolute;
     font-size: 1em;
-    padding-top:70vh;
-    padding-right:30px;
-    padding-left:30px;
+    margin-top:70vh;
+    margin-right:30px;
+    padding:10px;
+    padding-left:6vh;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .welcome-week{
@@ -198,10 +206,12 @@ h2{
 .welcome-week h2{
     position: absolute;
     font-size: 1em;
-    padding-top:70vh;
+    margin-top:70vh;
     right:0;
-    padding-right:30px;
     text-align:right;
+    padding:10px;
+    padding-right:50px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .fall-rush-2021{
@@ -219,10 +229,13 @@ h2{
 .fall-rush-2021 h2{
     position: absolute;
     font-size: 1em;
-    padding-top:20vh;
-    padding-right:30px;
-    padding-left:60px;
+    margin-top:20vh;
+    margin-right:30px;
+    padding:10px;
+    padding-left:6vh;
+    background-color:rgba(0, 0, 0, 0.5);
 }
+
 
 .pank-hoodies{
     background-attachment: fixed; 
@@ -240,8 +253,11 @@ h2{
     position: absolute;
     right:0;
     font-size: 1em;
-    padding-top:15vh;
+    margin-top:15vh;
     padding-right:30px;
+    padding:10px;
+    padding-right:50px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .dtd-x-piphi{
@@ -259,9 +275,11 @@ h2{
 .dtd-x-piphi h2{
     position: absolute;
     font-size: 1em;
-    padding-top:80vh;
-    padding-left:280px;
+    margin-top:80vh;
     text-align:center;
+    padding:10px;
+    padding-left:50px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .fall-rush-2020{
@@ -280,9 +298,11 @@ h2{
     position: absolute;
     right:0;
     font-size: 1em;
-    padding-top:10vh;
-    padding-right: 30px;
+    margin-top:10vh;
     text-align:right;
+    padding:10px;
+    padding-right:50px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .winter-rush-2020{
@@ -301,9 +321,11 @@ h2{
     position: absolute;
     right:0;
     font-size: 1em;
-    padding-top:10vh;
-    padding-right: 30px;
+    margin-top:10vh;
     text-align:right;
+    padding:10px;
+    padding-right:50px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .dtd-quarantine{
@@ -321,9 +343,10 @@ h2{
 .dtd-quarantine h2{
     position: absolute;
     font-size: 1em;
-    padding-top:70vh;
-    padding-right:30px;
-    padding-left:30px;
+    margin-top:70vh;
+    padding-left:50px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 footer{
