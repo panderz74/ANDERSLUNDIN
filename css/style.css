@@ -41,6 +41,10 @@ nav li{
     padding-left: 5px;
 }
 
+nav ul :first-child(){
+    text-decoration: white underline;
+}
+
 nav a{
     color:white;
     text-decoration:none;

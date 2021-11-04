@@ -39,6 +39,10 @@ nav ul{
     padding-right:10px;
 }
 
+nav ul :nth-child(2){
+    text-decoration: white underline;
+}
+
 nav li{
     display: inline;
     color: white;
