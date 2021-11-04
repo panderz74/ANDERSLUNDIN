@@ -1,0 +1,151 @@
+body{
+    background: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color:black;
+}
+
+header img{
+    display:block;
+    width:80vw;
+    padding-top:90px;
+}
+
+h1{
+    display:block;
+    position: absolute;
+    font-size: 2em;
+    color:black;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top:2em;
+    left:5vw;
+}
+
+.self-image{
+    width:90vw;
+    justify-self: center;
+    margin: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    position:fixed;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100vw;
+    font-size: 0.5em;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav .active{
+    text-decoration: white underline;
+}
+
+nav img{
+    position:relative;
+    width:1.5em;
+    margin-bottom: -20px;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+nav img a{
+    color:pink;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+    margin-bottom:15px;
+    padding-right:10px;
+}
+
+nav li{
+    display: inline;
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+    /* border-right:solid 3px #fff; */
+}
+
+nav li{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(179, 179, 179);
+}
+
+.skip a{
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position:absolute;
+    top: -80px;
+    overflow:hidden;
+}
+
+.skip a:focus{
+    top:inherit;
+}
+
+:focus{
+    border: 2px solid white;
+}
+
+main{
+    padding-top:100px;
+
+}
+
+footer{
+    font-size:20px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows:repeat(7, auto);
+    justify-items: center;
+}
+
+p{
+    font-size:20px;
+    padding:20px 130px 10px 30px;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.8);
+    margin:5px 4vw;
+}
+
+h2{
+    font-size: 40px;
+    margin:20px 130px 10px 30px;
+    letter-spacing:8px;
+}
+
+.socials{
+    display:flex;
+    padding-top:1em;
+    grid-template-rows: 1;
+    grid-template-columns: 3;
+    padding-bottom: 1em;
+    width: 100vw;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.socials img{
+    width:5vw;
+}
+
