@@ -9,6 +9,7 @@ a{
     text-decoration: none;
 }
 
+
 nav{
     position:fixed;
     font-family: "Josefin Sans", sans-serif;
@@ -55,7 +56,7 @@ nav .active {
 }
 
 a:hover{
-    color:rgb(179, 179, 179);
+    filter: invert(100%);
 }
 
 .skip a{
@@ -162,14 +163,12 @@ h2{
 .tonie-arcon h2{
     position: absolute;
     font-size: 0.8em;
-    margin-top:15vh;
-    padding-left:30px;
-    padding:10px;
-    padding-left:6vh;
+    margin-top:18vh;
+    padding-left:3vw;
 }
 
 .tonie-arcon a{
-    color:red;
+    color:yellow;
 }
 
 .earring-designs{
@@ -216,7 +215,7 @@ h2{
     right:0;
     text-align:right;
     padding:10px;
-    padding-right:50px;
+    padding-right:20px;
 }
 
 .welcome-week a{
@@ -323,7 +322,7 @@ h2{
 }
 
 .fall-rush-2020 a{
-    color:rgb(199, 143, 231);
+    color:rgb(250, 235, 26);
 }
 
 .winter-rush-2020{
