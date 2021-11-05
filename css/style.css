@@ -7,7 +7,6 @@ body{
 
 a{
     text-decoration: none;
-    color:white;
 }
 
 nav{
@@ -106,7 +105,7 @@ h2{
 }
 
 .intro-text h1{
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -114,23 +113,21 @@ h2{
 .intro-text{
     position: absolute;
     right:0px;
-    margin-left:58vw;
+    margin-left:64vw;
     margin-top:25vh;
-    padding:10px;
-    padding-right:50px;
-    background-color:rgba(0, 0, 0, 0.5);
-    
 }
 
 .intro-text p{
-    font-size:16px;
+    font-size:12px;
+    padding:10px;
+    padding-right:30px;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .grateful-delt{
     background-attachment: fixed; 
     background-position: center; 
     background-size: cover; 
-    color: white;
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 2 / span 1;
@@ -140,11 +137,14 @@ h2{
 
 .grateful-delt h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: 75vh;
     padding:10px;
     padding-left:6vh;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.grateful-delt a{
+    color:#dc81f3;
 }
 
 .tonie-arcon{
@@ -161,12 +161,15 @@ h2{
 
 .tonie-arcon h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:15vh;
     padding-left:30px;
     padding:10px;
     padding-left:6vh;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.tonie-arcon a{
+    color:red;
 }
 
 .earring-designs{
@@ -183,12 +186,15 @@ h2{
 
 .earring-designs h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:70vh;
     margin-right:30px;
     padding:10px;
     padding-left:6vh;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.earring-designs a{
+    color:white;
 }
 
 .welcome-week{
@@ -205,13 +211,16 @@ h2{
 
 .welcome-week h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:70vh;
     right:0;
     text-align:right;
     padding:10px;
     padding-right:50px;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.welcome-week a{
+    color:gold;
 }
 
 .fall-rush-2021{
@@ -228,12 +237,15 @@ h2{
 
 .fall-rush-2021 h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:20vh;
     margin-right:30px;
     padding:10px;
     padding-left:6vh;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.fall-rush-2021 a{
+    color:orangered;
 }
 
 
@@ -252,12 +264,15 @@ h2{
 .pank-hoodies h2{
     position: absolute;
     right:0;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:15vh;
     padding-right:30px;
     padding:10px;
     padding-right:50px;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.pank-hoodies a{
+    color: red;
 }
 
 .dtd-x-piphi{
@@ -274,12 +289,15 @@ h2{
 
 .dtd-x-piphi h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:80vh;
     text-align:center;
     padding:10px;
     padding-left:50px;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.dtd-x-piphi a{
+    color:navy;
 }
 
 .fall-rush-2020{
@@ -297,12 +315,15 @@ h2{
 .fall-rush-2020 h2{
     position: absolute;
     right:0;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:10vh;
     text-align:right;
     padding:10px;
     padding-right:50px;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.fall-rush-2020 a{
+    color:rgb(199, 143, 231);
 }
 
 .winter-rush-2020{
@@ -320,12 +341,15 @@ h2{
 .winter-rush-2020 h2{
     position: absolute;
     right:0;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:10vh;
     text-align:right;
     padding:10px;
     padding-right:50px;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.winter-rush-2020 a{
+    color:red;
 }
 
 .dtd-quarantine{
@@ -342,11 +366,14 @@ h2{
 
 .dtd-quarantine h2{
     position: absolute;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:70vh;
     padding-left:50px;
     padding:10px;
-    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.dtd-quarantine a{
+    color: rgb(238, 241, 35);
 }
 
 footer{
