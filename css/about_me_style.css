@@ -11,16 +11,6 @@ header img{
     padding-top:90px;
 }
 
-h1{
-    display:block;
-    position: absolute;
-    font-size: 2em;
-    color:black;
-    font-family: "Josefin Sans", sans-serif;
-    padding-top:2em;
-    left:5vw;
-}
-
 .self-image{
     width:90vw;
     justify-self: center;

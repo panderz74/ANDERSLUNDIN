@@ -12,13 +12,10 @@ header img{
 }
 
 h1{
-    display:block;
-    position: absolute;
-    font-size: 2em;
+    font-size: 1.5em;
     color:black;
     font-family: "Josefin Sans", sans-serif;
-    padding-top:2em;
-    left:5vw;
+    padding-bottom: 20px;
 }
 
 .self-image{
