@@ -57,8 +57,8 @@ a:hover{
     filter: invert(100%);
 }
 
-.skip a{
-    left: 0;
+a.skip{
+    left: 50px;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
@@ -68,8 +68,10 @@ a:hover{
     overflow:hidden;
 }
 
-.skip a:focus{
-    top:inherit;
+a.skip:focus{
+    top: 100px;
+    color: black;
+    text-decoration-style: solid;
 }
 
 :focus{
