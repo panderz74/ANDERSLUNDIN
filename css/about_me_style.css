@@ -35,11 +35,9 @@ nav .active{
 }
 
 nav img{
-    position:relative;
+    position:fixed;
     width:1.5em;
-    margin-bottom: -20px;
-    margin-left:20px;
-    margin-top:10px;
+    border-radius: 0px;
 }
 
 nav img a{
@@ -49,8 +47,9 @@ nav img a{
 nav ul{
     list-style-type: none;
     text-align: right;
-    margin-bottom:15px;
+    margin-bottom:20px;
     padding-right:10px;
+    margin-top:30px;
 }
 
 #about_me{
@@ -132,8 +131,6 @@ h2{
 .socials{
     display:flex;
     padding-top:1em;
-    grid-template-rows: 1;
-    grid-template-columns: 3;
     padding-bottom: 1em;
     width: 100vw;
     justify-items: center;
@@ -144,3 +141,86 @@ h2{
     width:5vw;
 }
 
+#sig{
+    display:none;
+}
+#logo{
+    margin: 20px 0px 20px 30px;
+}
+
+/* TABLET VIEW */
+@media only screen and (min-device-width: 768px){
+    nav{
+        font-size: 0.8em;
+    }
+
+    nav ul{
+        padding-right:30px;
+    }
+
+    .container{
+        padding-top:s0px;
+        display:grid;
+        grid-template-columns:2fr 3fr;
+        grid-template-rows:repeat(5, auto);
+        justify-items:center;
+        width:100vw;
+    }
+
+    .self-image{
+        grid-column-start: 1;
+        margin:0px;
+        width:30vw;
+        padding:0px;
+    }
+
+    header img{
+        grid-column: 1 /2;
+        padding-bottom: 20px;
+        width:30vw;
+    }
+
+    p{
+        grid-column-start:2;
+        grid-column-end:2;
+        font-size:16px;
+        padding:10px;
+        color:white;
+        background-color:rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+        margin:10px 30px 10px 0px;
+    }
+    
+    h2{
+        font-size: 40px;
+        margin:0px;
+        letter-spacing:8px;
+    }
+
+    .socials{
+        display:flex;
+        width: 30vw;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .socials img{
+        width:4vw;
+    }
+
+    .self{
+        grid-column-start: 2;
+    }
+
+    #sig{
+        display:inline-block;
+        width:6em;
+        padding-bottom:0px;
+        align-items:left;
+        margin:10px 0px 20px 90px
+    }
+    
+    #logo{
+        margin: 20px 0px 20px 30px;
+    }
+}

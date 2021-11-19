@@ -42,11 +42,9 @@ nav .active{
 }
 
 nav img{
-    position:relative;
+    position:fixed;
     width:1.5em;
-    margin-bottom: -20px;
-    margin-left:20px;
-    margin-top:10px;
+    border-radius: 0px;
 }
 
 nav img a{
@@ -56,8 +54,9 @@ nav img a{
 nav ul{
     list-style-type: none;
     text-align: right;
-    margin-bottom:15px;
+    margin-bottom:20px;
     padding-right:10px;
+    margin-top:30px;
 }
 
 #contact{
@@ -113,6 +112,12 @@ footer{
     padding: 30px;
     text-align: center;
 }
+#sig{
+    display:none;
+}
+#logo{
+    margin: 20px 0px 20px 30px;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -148,3 +153,24 @@ input[type=text], select, textarea {
     padding: 20px;
     padding-top:80px;
   }
+
+  /* TABLET VIEW */
+@media only screen and (min-device-width: 768px){
+    nav{
+        font-size: 0.8em;
+    }
+
+    nav ul{
+        padding-right:30px;
+    }
+    #sig{
+        display:inline-block;
+        width:6em;
+        padding-bottom:0px;
+        align-items:left;
+        margin:10px 0px 20px 90px
+    }
+    
+    #logo{
+        margin: 20px 0px 20px 30px;
+    }

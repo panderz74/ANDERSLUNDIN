@@ -19,19 +19,17 @@ nav{
 }
 
 nav img{
-    position:relative;
+    position:fixed;
     width:1.5em;
-    margin-bottom: -20px;
-    margin-left:20px;
-    margin-top:10px;
     border-radius: 0px;
 }
 
 nav ul{
     list-style-type: none;
     text-align: right;
-    margin-bottom:15px;
+    margin-bottom:20px;
     padding-right:10px;
+    margin-top:30px;
 }
 
 nav li{
@@ -387,7 +385,14 @@ footer{
     position: absolute;
 }
 
-@media only screen and (max-device-width: 1366px) {
+#sig{
+    display:none;
+}
+#logo{
+    margin: 20px 0px 20px 30px;
+}
+
+@media only screen and (max-device-width: 500px) {
     .intro {
       background-attachment: scroll;
     }
@@ -441,4 +446,76 @@ footer{
         transform: scale(1, 0.25);
     }
 }
+
+/* TABLET VIEW */
+@media only screen and (min-device-width: 768px){
+    nav{
+        font-size: 0.8em;
+    }
+
+    nav ul{
+        padding-right:30px;
+    }
+
+    .intro-text h1{
+        font-size: 2em;
+    }
+
+    .intro-text p{
+        font-size: 20px;
+    }
+
+    .grateful-delt h2{
+        font-size:2em;
+    }
+
+    .tonie-arcon h2{
+        font-size:2em;
+    }
+
+    .earring-designs h2{
+        font-size:2em;
+    }
+
+    .welcome-week h2{
+        font-size:2em;
+    }
+
+    .fall-rush-2021 h2{
+        font-size:2em;
+    }
+
+    .pank-hoodies h2{
+        font-size:2em;
+    }
+
+    .dtd-x-piphi h2{
+        font-size:2em;
+    }
+
+    .fall-rush-2020 h2{
+        font-size:2em;
+    }
+
+    .winter-rush-2020 h2{
+        font-size:2em;
+    }
+
+    .dtd-quarantine h2{
+        font-size:2em;
+    }
+    
+    #sig{
+        display:inline-block;
+        width:6em;
+        padding-bottom:0px;
+        align-items:left;
+        margin:10px 0px 20px 90px
+    }
+    
+    #logo{
+        margin: 20px 0px 20px 30px;
+    }
+}
+
 
