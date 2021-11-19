@@ -98,13 +98,6 @@ main{
 
 }
 
-footer{
-    font-size:20px;
-    background-color: black;
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
 
 .container{
     padding-top: 10px;
@@ -128,17 +121,43 @@ h2{
     letter-spacing:8px;
 }
 
-.socials{
+footer{
+    font-size:20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+.footer h2{
+    position: absolute;
+}
+
+.socialsam{
     display:flex;
     padding-top:1em;
     padding-bottom: 1em;
+    width: 30vw;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.socialsam img{
+    width:5vw;
+}
+
+.socials{
+    display:flex;
+    padding-top:20px;
+    padding-bottom: 15px;
     width: 100vw;
     justify-items: center;
     justify-content: space-evenly;
 }
 
 .socials img{
-    width:5vw;
+    width:3vw;
 }
 
 #sig{
@@ -197,14 +216,14 @@ h2{
         letter-spacing:8px;
     }
 
-    .socials{
+    .socialsam{
         display:flex;
         width: 30vw;
         justify-items: center;
         justify-content: space-evenly;
     }
     
-    .socials img{
+    .socialsam img{
         width:4vw;
     }
 

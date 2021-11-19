@@ -109,8 +109,26 @@ footer{
     font-size:20px;
     background-color: black;
     color: white;
-    padding: 30px;
     text-align: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+.footer h2{
+    position: absolute;
+}
+
+.socials{
+    display:flex;
+    padding-top:20px;
+    padding-bottom: 15px;
+    width: 100vw;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.socials img{
+    width:3vw;
 }
 #sig{
     display:none;

@@ -373,23 +373,37 @@ h2{
     color: rgb(238, 241, 35);
 }
 
+#sig{
+    display:none;
+}
+#logo{
+    margin: 20px 0px 20px 30px;
+}
+
 footer{
     font-size:20px;
     background-color: black;
     color: white;
-    padding: 30px;
     text-align: center;
+    justify-content: center;
+    padding-bottom:20px;
 }
 
 .footer h2{
     position: absolute;
 }
 
-#sig{
-    display:none;
+.socials{
+    display:flex;
+    padding-top:20px;
+    padding-bottom: 15px;
+    width: 100vw;
+    justify-items: center;
+    justify-content: space-evenly;
 }
-#logo{
-    margin: 20px 0px 20px 30px;
+
+.socials img{
+    width:3vw;
 }
 
 @media only screen and (max-device-width: 500px) {
@@ -516,6 +530,50 @@ footer{
     #logo{
         margin: 20px 0px 20px 30px;
     }
+
+
+    .intro {
+        background-attachment: scroll;
+      }
+      .grateful-delt {
+          background-attachment: scroll;
+      }
+  
+      .tonie-arcon {
+          background-attachment: scroll;
+        }
+  
+      .earring-designs {
+        background-attachment: scroll;
+      }
+  
+      .welcome-week {
+        background-attachment: scroll;
+      }
+      
+      .fall-rush-2021 {
+        background-attachment: scroll;
+      }
+  
+      .pank-hoodies {
+        background-attachment: scroll;
+      }
+  
+      .dtd-x-piphi {
+        background-attachment: scroll;
+      }
+  
+      .fall-rush-2020{
+        background-attachment: scroll;
+      }
+      
+      .winter-rush-2020 {
+        background-attachment: scroll;
+      }
+  
+      .dtd-quarantine{
+        background-attachment: scroll;
+      }
 }
 
 
