@@ -151,6 +151,7 @@ footer{
 
 /* TABLET VIEW */
 @media only screen and (min-device-width: 600px){
+    
     nav{
         font-size: 0.8em;
     }
