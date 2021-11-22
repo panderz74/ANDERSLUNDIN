@@ -408,50 +408,47 @@ footer{
     width:3vw;
 }
 
-@media only screen and (max-device-width: 500px) {
-    .intro {
-      background-attachment: scroll;
-    }
-    .grateful-delt {
-        background-attachment: scroll;
-    }
 
-    .tonie-arcon {
-        background-attachment: scroll;
-      }
-
-    .earring-designs {
-      background-attachment: scroll;
-    }
-
-    .welcome-week {
-      background-attachment: scroll;
-    }
-    
-    .fall-rush-2021 {
-      background-attachment: scroll;
-    }
-
-    .pank-hoodies {
-      background-attachment: scroll;
-    }
-
-    .dtd-x-piphi {
-      background-attachment: scroll;
-    }
-
-    .fall-rush-2020{
-      background-attachment: scroll;
-    }
-    
-    .winter-rush-2020 {
-      background-attachment: scroll;
-    }
-
-    .dtd-quarantine{
-      background-attachment: scroll;
-    }
+.intro {
+  background-attachment: scroll;
+}
+.grateful-delt {
+    background-attachment: scroll;
+}
+.tonie-arcon {
+    background-attachment: scroll;
   }
+.earring-designs {
+  background-attachment: scroll;
+}
+
+.welcome-week {
+  background-attachment: scroll;
+}
+    
+.fall-rush-2021 {
+  background-attachment: scroll;
+}
+
+.pank-hoodies {
+  background-attachment: scroll;
+}
+
+.dtd-x-piphi {
+  background-attachment: scroll;
+}
+
+.fall-rush-2020{
+  background-attachment: scroll;
+}
+    
+.winter-rush-2020 {
+  background-attachment: scroll;
+}
+
+.dtd-quarantine{
+  background-attachment: scroll;
+}
 
 /* -------ANIMATION CODE------- */
 @keyframes threepeat {
@@ -464,7 +461,7 @@ footer{
 }
 
 /* TABLET VIEW */
-@media only screen and (min-device-width: 600px) and (max-device-width: 1024px){
+@media only screen and (min-device-width: 600px){
     nav{
         font-size: 0.8em;
     }
@@ -532,50 +529,6 @@ footer{
     #logo{
         margin: 20px 0px 20px 30px;
     }
-
-
-    .intro {
-        background-attachment: scroll;
-      }
-      .grateful-delt {
-          background-attachment: scroll;
-      }
-  
-      .tonie-arcon {
-          background-attachment: scroll;
-        }
-  
-      .earring-designs {
-        background-attachment: scroll;
-      }
-  
-      .welcome-week {
-        background-attachment: scroll;
-      }
-      
-      .fall-rush-2021 {
-        background-attachment: scroll;
-      }
-  
-      .pank-hoodies {
-        background-attachment: scroll;
-      }
-  
-      .dtd-x-piphi {
-        background-attachment: scroll;
-      }
-  
-      .fall-rush-2020{
-        background-attachment: scroll;
-      }
-      
-      .winter-rush-2020 {
-        background-attachment: scroll;
-      }
-  
-      .dtd-quarantine{
-        background-attachment: scroll;
-      }
 }
 
 
