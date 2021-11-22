@@ -1,0 +1,196 @@
+body{
+    background: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    color:black;
+}
+
+header img{
+    display:block;
+    width:80vw;
+    padding-top:90px;
+}
+
+h1{
+    font-size: 1.5em;
+    color:black;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+.self-image{
+    width:90vw;
+    justify-self: center;
+    margin: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    position:fixed;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100vw;
+    font-size: 0.4em;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav .active{
+    text-decoration: white underline;
+}
+
+nav img{
+    position:fixed;
+    width:1.5em;
+    border-radius: 0px;
+}
+
+nav img a{
+    color:pink;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+    margin-bottom:20px;
+    padding-right:10px;
+    margin-top:30px;
+}
+
+#contact{
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline;
+    color: white;
+    padding-right: 6px;
+    padding-left: 5px;
+    /* border-right:solid 3px #fff; */
+}
+
+nav li{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(179, 179, 179);
+}
+
+a.skip{
+    left: 50px;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position:absolute;
+    top: -80px;
+    overflow:hidden;
+}
+
+a.skip:focus{
+    top: 100px;
+    color: black;
+    text-decoration-style: solid;
+}
+
+:focus{
+    border: 2px solid white;
+}
+
+main{
+    padding-top:100px;
+
+}
+
+footer{
+    font-size:20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+.footer h2{
+    position: absolute;
+}
+
+.socials{
+    display:flex;
+    padding-top:20px;
+    padding-bottom: 15px;
+    width: 100vw;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.socials img{
+    width:3vw;
+}
+#sig{
+    display:none;
+}
+#logo{
+    margin: 20px 0px 20px 30px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #808080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-top:80px;
+  }
+
+  /* TABLET VIEW */
+  @media only screen and (min-device-width: 600px){
+    nav{
+        font-size: 0.8em;
+    }
+
+    nav ul{
+        padding-right:30px;
+    }
+    #sig{
+        display:inline-block;
+        width:6em;
+        padding-bottom:0px;
+        align-items:left;
+        margin:10px 0px 20px 90px
+    }
+    
+    #logo{
+        margin: 20px 0px 20px 30px;
+    }
