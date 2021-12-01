@@ -15,13 +15,7 @@ h1{
     font-size: 1.5em;
     color:black;
     font-family: "Josefin Sans", sans-serif;
-    padding-bottom: 20px;
-}
-
-.self-image{
-    width:90vw;
-    justify-self: center;
-    margin: center;
+    padding:0px 0px 30px 0px;
 }
 
 a{
@@ -171,7 +165,30 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    padding-top:80px;
+    padding-top:100px;
+  }
+
+  button{
+      font-size:30px;
+      border: 3px black solid;
+      background-color:rgb(26, 243, 26);
+      border-radius: 10px;
+      padding:10px;
+      margin-top:60px;
+  }
+
+  label{
+      font-family:"Josefin Sans", sans-serif;
+  }
+
+  #message{
+      height:20vw;
+  }
+
+  .box{
+      font-family:"Josefin Sans", sans-serif;
+      padding:30px;
+      width:100%;
   }
 
   /* TABLET VIEW */
@@ -189,6 +206,48 @@ input[type=text], select, textarea {
         padding-bottom:0px;
         align-items:left;
         margin:10px 0px 20px 90px
+    }
+    
+    #logo{
+        margin: 20px 0px 20px 30px;
+    }
+
+    .container{
+        display:flex;
+        justify-content: center;
+        background-image: url("../images/logo_bg.png");
+        background-size:107vw;
+        position:center;
+        margin-left:-10px;
+    }
+
+    .form{
+        width:40vw;
+        background-color: white;
+        padding:60px;
+        margin:80px;
+        border-radius: 30px;
+        filter: drop-shadow(20px 20px 4px rgb(0, 0, 0));
+    }
+  }
+
+@media only screen and (min-device-width: 992px){ 
+    nav{
+        font-size: 1.2em;
+    }
+
+    nav ul{
+        padding-right:30px;
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+
+    #sig{
+        display:inline-block;
+        width:6em;
+        padding-bottom:0px;
+        align-items:left;
+        margin:10px 0px 40px 110px
     }
     
     #logo{

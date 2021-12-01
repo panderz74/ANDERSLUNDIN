@@ -25,27 +25,33 @@
             </ul>
         </nav>
 
+        <div>
         <main class="container" id = "skip">
-            <h1>CONTACT ME</h1>
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
+            <div class = "form">
+            <h1>Contact Me</h1>
+            <form
+            action="https://formspree.io/f/mrgrwwov"
+            method="POST"
+          >
+            <label>
+                <input class = "box" id = "namebox" type="name" placeholder = "Full Name" name = "message">
+            </label>
+            <br>
+            <br>
+            <label>
+              <input class = "box" id = "emailbox" type="email" name="_replyto" placeholder = "Email">
+            </label>
+            <br>
+            <br>
+            <div id = "message">
+            <label>
+              <textarea class = "box" name="message" id = "message" placeholder = "Your Message"></textarea>
+            </label>
+            </div>
+
+            <button type="submit">Send</button>
+            </div>
+
           
             </form>
           </div>
