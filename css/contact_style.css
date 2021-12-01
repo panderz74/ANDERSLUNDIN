@@ -232,24 +232,4 @@ input[type=text], select, textarea {
   }
 
 @media only screen and (min-device-width: 992px){ 
-    nav{
-        font-size: 1.2em;
-    }
-
-    nav ul{
-        padding-right:30px;
-        padding-bottom:10px;
-        padding-top:10px;
-    }
-
-    #sig{
-        display:inline-block;
-        width:6em;
-        padding-bottom:0px;
-        align-items:left;
-        margin:10px 0px 40px 110px
-    }
-    
-    #logo{
-        margin: 20px 0px 20px 30px;
-    }
+}
