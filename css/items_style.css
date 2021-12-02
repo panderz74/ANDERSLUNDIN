@@ -16,6 +16,7 @@ nav{
     width: 100vw;
     font-size: 0.4em;
     background: rgba(0, 0, 0, 0.5);
+    z-index:1000;
 }
 
 nav .active {
@@ -67,6 +68,7 @@ a.skip{
     position:absolute;
     top: -80px;
     overflow:hidden;
+    background-color: white;
 }
 
 a.skip:focus{
@@ -150,9 +152,10 @@ footer{
 }
 
 /* TABLET VIEW */
-@media only screen and (min-device-width: 600px){
+@media only screen and (min-width: 600px){
+    
     nav{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     nav ul{
@@ -172,6 +175,7 @@ footer{
         grid-column-start:0;
         grid-column-end:1;
         margin-bottom:30px;
+        filter: drop-shadow(10px 10px 4px rgb(0, 0, 0));
     }
 
     .grateful-delt-image{
@@ -196,6 +200,7 @@ footer{
     p{
         font-size:20px;
         padding-right:10px;
+        margin:0px 20px 30px 30px;
     }
 
     h2{
@@ -209,19 +214,26 @@ footer{
         padding-bottom:0px;
         align-items:left;
         margin:10px 0px 20px 90px;
+        filter:none;
     }
     
     #logo{
         margin: 20px 0px 20px 30px;
+        filter:none;
     }
+
     .socials img{
-        width:vw;
+        width:3vw;
     }
 }
 
-@media only screen and (min-device-width: 992px){
+@media only screen and (min-width: 992px){
+    nav{
+        font-size: 0.8em;
+    }
+
     h2{
-        font-size:40px;
+        font-size:30px;
         margin-bottom:10px;
     }
 
@@ -246,12 +258,11 @@ footer{
     }
     
     h1{
-        font-size:50px;
         display:block;
         margin-bottom:30px;
         margin-top:50px;
         padding-left:0px;
-        font-size:80px;
+        font-size:50px;
         grid-column: 1 / span 4;
     }
 }

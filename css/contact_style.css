@@ -12,7 +12,7 @@ header img{
 }
 
 h1{
-    font-size: 1.5em;
+    font-size: .5em;
     color:black;
     font-family: "Josefin Sans", sans-serif;
     padding:0px 0px 30px 0px;
@@ -29,6 +29,7 @@ nav{
     width: 100vw;
     font-size: 0.4em;
     background: rgba(0, 0, 0, 0.5);
+    z-index:1000;
 }
 
 nav .active{
@@ -84,6 +85,7 @@ a.skip{
     position:absolute;
     top: -80px;
     overflow:hidden;
+    background-color: white;
 }
 
 a.skip:focus{
@@ -160,16 +162,9 @@ input[type=text], select, textarea {
     background-color: #000000;
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    padding-top:100px;
-  }
 
   button{
-      font-size:30px;
+      font-size:0.4em;
       border: 3px black solid;
       background-color:rgb(26, 243, 26);
       border-radius: 10px;
@@ -186,18 +181,52 @@ input[type=text], select, textarea {
   }
 
   .box{
-      font-family:"Josefin Sans", sans-serif;
-      padding:30px;
-      width:100%;
+    font-family:"Josefin Sans", sans-serif;
+    padding:20px;
+    width:100%;
+    font-size: 0.5em;
   }
 
+  .container{
+    display:flex;
+    justify-content: center;
+    background-image: url("../images/logo_bg.png");
+    background-size:107vw;
+    position:center;
+    margin-left:-10px;
+}
+
+.form{
+    width:75vw;
+    background-color: white;
+    padding:20px;
+    margin:20px;
+    border-radius: 30px;
+    filter: drop-shadow(20px 20px 4px rgb(0, 0, 0));
+}
+
   /* TABLET VIEW */
-  @media only screen and (min-device-width: 600px){
+  @media only screen and (min-width: 600px){
+    .box{
+        font-family:"Josefin Sans", sans-serif;
+        padding:30px;
+        width:100%;
+        font-size:1em;
+    }
+
+    button{
+        font-size:30px;
+    }
+
+    h1{
+        font-size:1.5em;
+    }
+
     .socials img{
         width:3vw;
     }
     nav{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     nav ul{
@@ -225,14 +254,36 @@ input[type=text], select, textarea {
     }
 
     .form{
-        width:40vw;
+        width:60vw;
         background-color: white;
         padding:60px;
-        margin:80px;
+        margin:0px 0px 80px 0px;
         border-radius: 30px;
         filter: drop-shadow(20px 20px 4px rgb(0, 0, 0));
     }
+    
   }
 
-@media only screen and (min-device-width: 992px){ 
+@media only screen and (min-width: 992px){ 
+    nav{
+        font-size: 0.8em;
+    }
+
+    .container{
+        display:flex;
+        justify-content: center;
+        background-image: url("../images/animatedsig.gif");
+        background-size:107vw;
+        position:center;
+        margin-left:-10px;
+    }
+
+    .form{
+        width:40vw;
+        background-color: white;
+        padding:60px;
+        margin:0px 0px 80px 0px;
+        border-radius: 30px;
+        filter: drop-shadow(20px 20px 4px rgb(0, 0, 0));
+    }
 }

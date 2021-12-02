@@ -9,7 +9,7 @@
     height:100%;
     top:0px;
     left:0px;
-    z-index:1000;
+    z-index:1001;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -48,6 +48,7 @@ nav{
     width: 100vw;
     font-size: 0.4em;
     background: rgba(0, 0, 0, 0.5);
+    z-index:1000;
 }
 
 nav img{
@@ -98,6 +99,7 @@ a.skip{
     position:absolute;
     top: -80px;
     overflow:hidden;
+    background-color: white;
 }
 
 a.skip:focus{
@@ -481,27 +483,17 @@ footer{
   background-attachment: scroll;
 }
 
-/* -------ANIMATION CODE------- */
-@keyframes threepeat {
-    0% {
-        transform: scale(0, .025);
-    }
-    50% {
-        transform: scale(1, 0.25);
-    }
-}
-
 /* TABLET VIEW */
-@media only screen and (min-device-width: 600px){
+@media only screen and (min-width: 600px){
     .socials img{
         width:3vw;
     }
     .overlay img{
-        width:20vw;
-        height:8vw;
+        width:25vw;
+        height:12vw;
     }
     nav{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     nav ul{
@@ -569,7 +561,11 @@ footer{
     }
 }
 
-@media only screen and (min-device-width: 992px){
+@media only screen and (min-width: 992px){
+    nav{
+        font-size: 0.8em;
+    }
+    
     .overlay img{
         width:30vw;
         height:20vw;
@@ -623,7 +619,7 @@ footer{
     }
 
     .intro-text h1{
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .intro-text p{
@@ -631,43 +627,43 @@ footer{
     }
 
     .grateful-delt h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .tonie-arcon h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .earring-designs h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .welcome-week h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .fall-rush-2021 h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .pank-hoodies h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .dtd-x-piphi h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .fall-rush-2020 h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .winter-rush-2020 h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
     .dtd-quarantine h2{
-        font-size:3em;
+        font-size:2.5em;
     }
 
 }
