@@ -159,7 +159,7 @@ footer{
 }
 
 .socials img{
-    width:3vw;
+    width:7vw;
 }
 
 #sig{
@@ -175,6 +175,9 @@ footer{
 
 /* TABLET VIEW */
 @media only screen and (min-device-width: 600px){
+    .socials img{
+        width:3vw;
+    }
     nav{
         font-size: 0.8em;
     }
@@ -247,7 +250,7 @@ footer{
 
 @media only screen and (min-device-width: 992px){
     p{
-        font-size:30px;
+        font-size:24px;
         margin-right:10vw;
     }
     .flip-card {
@@ -295,5 +298,9 @@ footer{
     background-color: black;
     color: white;
     transform: rotateY(180deg);
+  }
+
+  .flip-card-back p {
+      margin:0px;
   }
     } 

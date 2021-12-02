@@ -124,7 +124,7 @@ footer{
 }
 
 .socials img{
-    width:3vw;
+    width:7vw;
 }
 #sig{
     display:none;
@@ -193,6 +193,9 @@ input[type=text], select, textarea {
 
   /* TABLET VIEW */
   @media only screen and (min-device-width: 600px){
+    .socials img{
+        width:3vw;
+    }
     nav{
         font-size: 0.8em;
     }

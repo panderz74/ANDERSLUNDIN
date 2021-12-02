@@ -437,7 +437,7 @@ footer{
 }
 
 .socials img{
-    width:3vw;
+    width:7vw;
 }
 
 .intro {
@@ -493,6 +493,9 @@ footer{
 
 /* TABLET VIEW */
 @media only screen and (min-device-width: 600px){
+    .socials img{
+        width:3vw;
+    }
     .overlay img{
         width:20vw;
         height:8vw;
