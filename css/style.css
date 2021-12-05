@@ -46,7 +46,7 @@ nav{
     position:fixed;
     font-family: "Josefin Sans", sans-serif;
     width: 100vw;
-    font-size: 0.4em;
+    font-size: 3vw;
     background: rgba(0, 0, 0, 0.5);
     z-index:1000;
 }
@@ -111,7 +111,7 @@ a.skip:focus{
 h2{
     font-family: "Josefin Sans", sans-serif;
     color:white;
-    font-size:2em;
+    font-size:5vw;
 }
 .container{
     display: grid;
@@ -135,7 +135,7 @@ h2{
 }
 
 .intro-text h1{
-    font-size: 0.8em;
+     
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -148,7 +148,7 @@ h2{
 }
 
 .intro-text p{
-    font-size:12px;
+    font-size:2.8vw;
     padding:10px;
     padding-right:30px;
     background-color:rgba(0, 0, 0, 0.5);
@@ -167,7 +167,7 @@ h2{
 
 .grateful-delt h2{
     position: absolute;
-    font-size: 0.8em;
+     
     margin-top: 75vh;
     padding:10px;
     padding-left:6vh;
@@ -191,7 +191,7 @@ h2{
 
 .tonie-arcon h2{
     position: absolute;
-    font-size: 0.8em;
+     
     margin-top:18vh;
     padding-left:3vw;
 }
@@ -214,7 +214,7 @@ h2{
 
 .earring-designs h2{
     position: absolute;
-    font-size: 0.8em;
+     
     margin-top:70vh;
     margin-right:30px;
     padding:10px;
@@ -239,8 +239,8 @@ h2{
 
 .welcome-week h2{
     position: absolute;
-    font-size: 0.8em;
-    margin-top:70vh;
+     
+    margin-top:60vh;
     right:0;
     text-align:right;
     padding:10px;
@@ -265,7 +265,7 @@ h2{
 
 .fall-rush-2021 h2{
     position: absolute;
-    font-size: 0.8em;
+     
     margin-top:20vh;
     margin-right:30px;
     padding:10px;
@@ -294,7 +294,7 @@ h2{
 .pank-hoodies h2{
     position: absolute;
     right:0;
-    font-size: 0.8em;
+     
     margin-top:50vh;
     padding:10px;
     padding-right:70px;
@@ -318,7 +318,7 @@ h2{
 
 .dtd-x-piphi h2{
     position: absolute;
-    font-size: 0.8em;
+     
     margin-top:80vh;
     text-align:center;
     padding:10px;
@@ -344,7 +344,7 @@ h2{
 .fall-rush-2020 h2{
     position: absolute;
     right:0;
-    font-size: 0.8em;
+     
     margin-top:10vh;
     text-align:right;
     padding:10px;
@@ -370,7 +370,7 @@ h2{
 .winter-rush-2020 h2{
     position: absolute;
     right:0;
-    font-size: 0.8em;
+     
     margin-top:10vh;
     text-align:right;
     padding:10px;
@@ -395,7 +395,7 @@ h2{
 
 .dtd-quarantine h2{
     position: absolute;
-    font-size: 0.8em;
+     
     margin-top:70vh;
     padding-left:50px;
     padding:10px;
@@ -497,60 +497,61 @@ nav a:hover{
         width:35vw;
         height:20vw;
     }
-    nav{
-        font-size: 0.7em;
-    }
 
     nav ul{
         padding-right:30px;
     }
 
+    nav{
+        font-size:2.5vw;
+    }
+
     .intro-text h1{
-        font-size: 2em;
+        font-size: 5vw;
     }
 
     .intro-text p{
-        font-size: 20px;
+        font-size: 1.7vw;
     }
 
     .grateful-delt h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .tonie-arcon h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .earring-designs h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .welcome-week h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .fall-rush-2021 h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .pank-hoodies h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .dtd-x-piphi h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .fall-rush-2020 h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .winter-rush-2020 h2{
-        font-size:2em;
+        font-size:5vw;
     }
 
     .dtd-quarantine h2{
-        font-size:2em;
+        font-size:5vw;
     }
     
     #sig{
@@ -628,7 +629,7 @@ nav a:hover{
     }
 
     nav{
-        font-size: 0.8em;
+        font-size: 2vw;
     }
 
     .overlay img{
@@ -675,54 +676,6 @@ nav a:hover{
   
     .dtd-quarantine{
       background-attachment: fixed;
-    }
-
-    .intro-text h1{
-        font-size: 2.5em;
-    }
-
-    .intro-text p{
-        font-size: 30px;
-    }
-
-    .grateful-delt h2{
-        font-size:2.5em;
-    }
-
-    .tonie-arcon h2{
-        font-size:2.5em;
-    }
-
-    .earring-designs h2{
-        font-size:2.5em;
-    }
-
-    .welcome-week h2{
-        font-size:2.5em;
-    }
-
-    .fall-rush-2021 h2{
-        font-size:2.5em;
-    }
-
-    .pank-hoodies h2{
-        font-size:2.5em;
-    }
-
-    .dtd-x-piphi h2{
-        font-size:2.5em;
-    }
-
-    .fall-rush-2020 h2{
-        font-size:2.5em;
-    }
-
-    .winter-rush-2020 h2{
-        font-size:2.5em;
-    }
-
-    .dtd-quarantine h2{
-        font-size:2.5em;
     }
 }
 
