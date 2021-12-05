@@ -55,10 +55,6 @@ nav a{
     text-decoration:none;
 }
 
-a:hover{
-    color:rgb(179, 179, 179);
-}
-
 a.skip{
     left: 50px;
     padding: 6px;
@@ -151,6 +147,10 @@ footer{
     margin: 20px 0px 20px 30px;
 }
 
+a:hover{
+    color:red;
+}
+
 /* TABLET VIEW */
 @media only screen and (min-width: 600px){
     
@@ -175,7 +175,6 @@ footer{
         grid-column-start:0;
         grid-column-end:1;
         margin-bottom:30px;
-        filter: drop-shadow(10px 10px 4px rgb(0, 0, 0));
     }
 
     .grateful-delt-image{
@@ -223,11 +222,68 @@ footer{
     }
 
     .socials img{
-        width:3vw;
+        width:5vw;
     }
 }
 
 @media only screen and (min-width: 992px){
+    @keyframes bg {
+        0% {
+            background-size:    0 3px,
+                                3px 0,
+                                0 3px,
+                                3px 0;
+        }
+        25% {
+            background-size:    100% 3px,
+                                3px 0,
+                                0 3px,
+                                3px 0;
+        }
+        50% {
+            background-size:    100% 3px,
+                                3px 100%,
+                                0 3px,
+                                3px 0;
+        }
+        75% {
+            background-size:    100% 3px,
+                                3px 100%,
+                                100% 3px,
+                                3px 0;
+        }
+        100% {
+            background-size:    100% 3px,
+                                3px 100%,
+                                100% 3px,
+                                3px 100%;
+        }
+    }
+    
+    nav a:hover {
+        width: 25%;
+        padding:5px;
+        
+        background-repeat: no-repeat;
+        background-image:   linear-gradient(to right, white 100%, white 100%),
+                            linear-gradient(to bottom, white 100%, white 100%),
+                            linear-gradient(to right, white 100%, white 100%),
+                            linear-gradient(to bottom, white 100%, white 100%);
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 100%;
+        background-position:    0 0,
+                                100% 0,
+                                100% 100%,
+                                0 100%;
+        animation: bg 0.5s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    }
+    
+
+    .socials img{
+        width:3vw;
+    }
     nav{
         font-size: 0.8em;
     }
@@ -245,16 +301,17 @@ footer{
     .container{
         display:grid;
         grid-template-columns:1fr 1fr 1fr 1fr;
-        grid-template-rows:repeat(5, auto);
+        grid-template-rows:repeat(6, auto);
         justify-items:center;
         padding-left:60px;
         margin-bottom:20px;
     }
 
     img{
-        border:2px 0px 0px 0px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         border-radius: 0px;
+        z-index:5;
+        border:none;
     }
     
     h1{
@@ -264,5 +321,22 @@ footer{
         padding-left:0px;
         font-size:50px;
         grid-column: 1 / span 4;
+    }
+    
+    /* [1] The container */
+    .zoom {
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+        border: black 5px;
+        margin-bottom:20px;
+    }
+  
+    /* [2] Transition property for smooth transformation of images */
+    .zoom img {
+        transition: transform .5s ease;
+    }
+  
+    /* [3] Finally, transforming the image when container gets hovered */
+    .zoom:hover img {
+        transform: scale(1.5);
     }
 }

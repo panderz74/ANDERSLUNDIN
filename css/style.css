@@ -86,10 +86,6 @@ nav .active {
     text-decoration: white underline;
 }
 
-a:hover{
-    filter: invert(100%);
-}
-
 a.skip{
     left: 50px;
     padding: 6px;
@@ -122,7 +118,6 @@ h2{
     grid-template-columns: 1;
     grid-template-rows:repeat(7, auto);
     grid-row-gap: 10px;
-    /* changes the line */
 }
 
 .intro{
@@ -179,7 +174,7 @@ h2{
 }
 
 .grateful-delt a{
-    color:#dc81f3;
+    color:white;
 }
 
 .tonie-arcon{
@@ -202,7 +197,7 @@ h2{
 }
 
 .tonie-arcon a{
-    color:yellow;
+    color:red;
 }
 
 .earring-designs{
@@ -212,7 +207,7 @@ h2{
     color: white;
     height: 100vh; 
     grid-column: 1 / -1;
-    grid-row: 4 / span 1;
+    grid-row: 12 / span 1;
     background-image: url("../images/jewelrydesigns2.jpg");
     background-repeat: no-repeat;
 }
@@ -253,7 +248,7 @@ h2{
 }
 
 .welcome-week a{
-    color:gold;
+    color:red;
 }
 
 .fall-rush-2021{
@@ -264,7 +259,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 6 / span 1;
-    background-image: url("../images/fr2021.jpg");
+    background-image: url("../images/daniel.jpg");
     background-repeat: no-repeat;
 }
 
@@ -275,10 +270,12 @@ h2{
     margin-right:30px;
     padding:10px;
     padding-left:6vh;
+    text-align:right;
+    right:0px;
 }
 
 .fall-rush-2021 a{
-    color:orangered;
+    color:red;
 }
 
 
@@ -290,7 +287,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 7 / span 1;
-    background-image: url("../images/ph.jpg");
+    background-image: url("../images/jorge.jpg");
     background-repeat: no-repeat;
 }
 
@@ -298,14 +295,13 @@ h2{
     position: absolute;
     right:0;
     font-size: 0.8em;
-    margin-top:15vh;
-    padding-right:30px;
+    margin-top:50vh;
     padding:10px;
-    padding-right:50px;
+    padding-right:70px;
 }
 
 .pank-hoodies a{
-    color: red;
+    color: white;
 }
 
 .dtd-x-piphi{
@@ -316,7 +312,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 8 / span 1;
-    background-image: url("../images/dtdpp.jpg");
+    background-image: url("../images/oliver.jpg");
     background-repeat: no-repeat;
 }
 
@@ -330,7 +326,7 @@ h2{
 }
 
 .dtd-x-piphi a{
-    color: white;
+    color: red;
 }
 
 .fall-rush-2020{
@@ -356,7 +352,7 @@ h2{
 }
 
 .fall-rush-2020 a{
-    color:rgb(250, 235, 26);
+    color:red;
 }
 
 .winter-rush-2020{
@@ -367,7 +363,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 11 / span 1;
-    background-image: url("../images/wr2020.jpg");
+    background-image: url("../images/julia.jpg");
     background-repeat: no-repeat;
 }
 
@@ -392,7 +388,7 @@ h2{
     color: white;
     height: 100vh; 
     grid-column: 1 / -1;
-    grid-row: 12 / span 1;
+    grid-row: 4 / span 1;
     background-image: url("../images/q.jpg");
     background-repeat: no-repeat;
 }
@@ -406,7 +402,7 @@ h2{
 }
 
 .dtd-quarantine a{
-    color: rgb(238, 241, 35);
+    color: red;
 }
 
 #sig{
@@ -483,14 +479,23 @@ footer{
   background-attachment: scroll;
 }
 
+a:hover{
+    filter:invert(100%);
+}
+
+nav a:hover{
+    color:red;
+    filter:none;
+}
+
 /* TABLET VIEW */
 @media only screen and (min-width: 600px){
     .socials img{
-        width:3vw;
+        width:5vw;
     }
     .overlay img{
-        width:25vw;
-        height:12vw;
+        width:35vw;
+        height:20vw;
     }
     nav{
         font-size: 0.7em;
@@ -559,22 +564,76 @@ footer{
     #logo{
         margin: 20px 0px 20px 30px;
     }
+
+
 }
 
 @media only screen and (min-width: 992px){
+    @keyframes bg {
+        0% {
+            background-size:    0 3px,
+                                3px 0,
+                                0 3px,
+                                3px 0;
+        }
+        25% {
+            background-size:    100% 3px,
+                                3px 0,
+                                0 3px,
+                                3px 0;
+        }
+        50% {
+            background-size:    100% 3px,
+                                3px 100%,
+                                0 3px,
+                                3px 0;
+        }
+        75% {
+            background-size:    100% 3px,
+                                3px 100%,
+                                100% 3px,
+                                3px 0;
+        }
+        100% {
+            background-size:    100% 3px,
+                                3px 100%,
+                                100% 3px,
+                                3px 100%;
+        }
+    }
+    
+    nav a:hover {
+        width: 25%;
+        padding:5px;
+        
+        background-repeat: no-repeat;
+        background-image:   linear-gradient(to right, white 100%, white 100%),
+                            linear-gradient(to bottom, white 100%, white 100%),
+                            linear-gradient(to right, white 100%, white 100%),
+                            linear-gradient(to bottom, white 100%, white 100%);
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 100%;
+        background-position:    0 0,
+                                100% 0,
+                                100% 100%,
+                                0 100%;
+        animation: bg 0.5s cubic-bezier(0.19, 1, 0.22, 1) 1;
+        filter:none;
+    }
+
+    .socials img{
+        width:3vw;
+    }
+
     nav{
         font-size: 0.8em;
     }
-    
+
     .overlay img{
         width:30vw;
         height:20vw;
-    }
-    h1{
-        animation-name:growintro;
-        animation-duration: 5s;
-        animation-iteration-count: 1;
-        animation-delay:3s;
     }
 
     .intro {
@@ -665,6 +724,5 @@ footer{
     .dtd-quarantine h2{
         font-size:2.5em;
     }
-
 }
 
