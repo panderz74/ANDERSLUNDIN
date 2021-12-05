@@ -47,9 +47,9 @@ nav img a{
 nav ul{
     list-style-type: none;
     text-align: right;
-    margin-bottom:20px;
+    margin-bottom:2vh;
     padding-right:10px;
-    margin-top:30px;
+    margin-top:3vh;
 }
 
 #about_me{
@@ -75,7 +75,7 @@ a.skip{
     padding: 6px;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
-    z-index: 1;
+    z-index: 1001;
     position:absolute;
     top: -80px;
     overflow:hidden;
@@ -423,6 +423,7 @@ a:hover{
 
     h1{
         grid-column: 1 / span 2;
+        margin-top:1vw;
     }
 
     .container{
@@ -517,5 +518,22 @@ a:hover{
     #somep p{
         font-size: 1.5vw;
     }
+    #sig{
+        display:inline-block;
+        width:5em;
+        padding-bottom:0px;
+        align-items:left;
+        margin:10px 0px 20px 120px
+    }
     
+    #logo{
+        margin: 20px 0px 20px 30px;
+    }
+
 } 
+
+@media screen and (prefers-reduced-motion: reduce) {
+    nav a:hover{
+        animation:none;
+    }
+}
