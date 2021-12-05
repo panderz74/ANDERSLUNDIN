@@ -27,7 +27,7 @@ nav{
     position:fixed;
     font-family: "Josefin Sans", sans-serif;
     width: 100vw;
-    font-size: 0.4em;
+    font-size: 3vw;
     background: rgba(0, 0, 0, 0.5);
     z-index:1000;
 }
@@ -232,8 +232,9 @@ nav a:hover{
     .socials img{
         width:5vw;
     }
+    
     nav{
-        font-size: 0.7em;
+        font-size:2.5vw;
     }
 
     nav ul{
@@ -254,7 +255,7 @@ nav a:hover{
     .container{
         display:flex;
         justify-content: center;
-        background-image: url("../images/photography/p3.jpg");
+        background-image: url("../images/photography/p9.jpg");
         background-size:100vw;
         height:100vh;
         width:100%;
@@ -331,12 +332,13 @@ nav a:hover{
                                 0 100%;
         animation: bg 0.5s cubic-bezier(0.19, 1, 0.22, 1) 1;
     }
+
     .socials img{
         width:3vw;
     }
 
     nav{
-        font-size: 0.8em;
+        font-size: 2vw;
     }
 
     .form{
@@ -347,7 +349,7 @@ nav a:hover{
     .container{
         display:flex;
         justify-content: center;
-        background-image: url("../images/photography/p9.jpg");
+        background-image: url("../images/photography/p1.jpg");
         height:105vh;
     }
 }
