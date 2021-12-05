@@ -233,7 +233,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 5 / span 1;
-    background-image: url("../will.jpg");
+    background-image: url("../images/will.jpg");
     background-repeat: no-repeat;
 }
 
@@ -337,7 +337,7 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 10 / span 1;
-    background-image: url("../luca.png");
+    background-image: url("../images/luca.png");
     background-repeat: no-repeat;
 }
 
