@@ -62,7 +62,6 @@ nav li{
     color: white;
     padding-right: 6px;
     padding-left: 5px;
-    /* border-right:solid 3px #fff; */
 }
 
 nav li{
@@ -79,12 +78,13 @@ nav li{
     position:absolute;
     top: -80px;
     overflow:hidden;
-    background-color: white;
+    background-color: red;
+    color:black;
 }
 
 .skip a:focus{
     top: 100px;
-    color: black;
+    color: yellow;
     text-decoration-style: solid;
 }
 
