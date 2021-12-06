@@ -218,7 +218,7 @@ nav a:hover{
 @media only screen and (min-width: 600px){
     .box{
         font-family:"Josefin Sans", sans-serif;
-        padding:30px;
+        padding:2vw;
         width:100%;
     }
 
@@ -266,10 +266,6 @@ nav a:hover{
         overflow:scroll;
     }
 
-    #message{
-        min-height:20%;
-        max-height:80%;
-    }
     .box{
         font-size:2vw;
     }
@@ -284,6 +280,7 @@ nav a:hover{
   }
 
 @media only screen and (min-width: 992px){ 
+    
     .box{
         font-size:2vw;
     }
