@@ -86,7 +86,7 @@ nav .active {
     text-decoration: white underline;
 }
 
-a.skip{
+.skip a{
     left: 50px;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -98,7 +98,7 @@ a.skip{
     background-color: white;
 }
 
-a.skip:focus{
+.skip a:focus{
     top: 100px;
     color: black;
     text-decoration-style: solid;
@@ -703,4 +703,44 @@ nav a:hover{
     nav a:hover{
         animation:none;
     }
+    .intro {
+        background-attachment: scroll;
+      }
+      .grateful-delt {
+          background-attachment: scroll;
+      }
+      .tonie-arcon {
+          background-attachment: scroll;
+        }
+      .earring-designs {
+        background-attachment: scroll;
+      }
+      
+      .welcome-week {
+        background-attachment: scroll;
+      }
+          
+      .fall-rush-2021 {
+        background-attachment: scroll;
+      }
+      
+      .pank-hoodies {
+        background-attachment: scroll;
+      }
+      
+      .dtd-x-piphi {
+        background-attachment: scroll;
+      }
+      
+      .fall-rush-2020{
+        background-attachment: scroll;
+      }
+          
+      .winter-rush-2020 {
+        background-attachment: scroll;
+      }
+      
+      .dtd-quarantine{
+        background-attachment: scroll;
+      }
 }

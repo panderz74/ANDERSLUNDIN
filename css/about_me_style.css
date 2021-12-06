@@ -70,7 +70,7 @@ nav li{
     text-decoration:none;
 }
 
-a.skip{
+.skip a{
     left: 50px;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -82,7 +82,7 @@ a.skip{
     background-color: white;
 }
 
-a.skip:focus{
+.skip a:focus{
     top: 100px;
     color: black;
     text-decoration-style: solid;
@@ -535,5 +535,12 @@ a:hover{
 @media screen and (prefers-reduced-motion: reduce) {
     nav a:hover{
         animation:none;
+    }
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus-within .flip-card-inner,
+    .flip-card:active .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: none;
     }
 }

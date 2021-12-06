@@ -55,7 +55,7 @@ nav a{
     text-decoration:none;
 }
 
-a.skip{
+.skip a{
     left: 50px;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -67,7 +67,7 @@ a.skip{
     background-color: white;
 }
 
-a.skip:focus{
+.skip a:focus{
     top: 100px;
     color: black;
     text-decoration-style: solid;

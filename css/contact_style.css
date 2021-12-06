@@ -71,7 +71,7 @@ nav li{
     text-decoration:none;
 }
 
-a.skip{
+.skip a{
     left: 50px;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -83,7 +83,7 @@ a.skip{
     background-color: white;
 }
 
-a.skip:focus{
+.skip a:focus{
     top: 100px;
     color: black;
     text-decoration-style: solid;
@@ -197,14 +197,14 @@ label{
     margin: -20px;
     overflow:scroll;
     height:100vh;
-  }
+}
 
-  .box{
+.box{
       background: transparent;
       border: none;
       border-bottom:2px solid white;
       color: white;
-  }
+}
 
 ::placeholder{
     color: white;
