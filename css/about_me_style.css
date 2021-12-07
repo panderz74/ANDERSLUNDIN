@@ -532,10 +532,20 @@ a:hover{
         animation:none;
     }
 
+    .flip-card:hover .flip-card-back{
+        opacity:1;
+        transform:none;
+    }
+
+    .flip-card:hover .flipcard-front{
+        opacity:0;
+        transform:none;
+    }
+
     .flip-card:hover .flip-card-inner,
-    .flip-card:focus-within .flip-card-inner,
     .flip-card:active .flip-card-inner,
+    .flip-card:focus-within .flip-card-inner,
     .flip-card:focus .flip-card-inner {
-        transform: none;
+        transform:none;
     }
 }
