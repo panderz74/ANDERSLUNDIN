@@ -390,26 +390,27 @@ h2{
     height: 100vh; 
     grid-column: 1 / -1;
     grid-row: 4 / span 1;
-    background-image: url("../images/q.jpg");
+    background-image: url("../images/mansfield.jpg");
     background-repeat: no-repeat;
 }
 
 .dtd-quarantine h2{
     position: absolute;
-     
     margin-top:70vh;
     padding-left:50px;
     padding:10px;
 }
 
 .dtd-quarantine a{
-    color: red;
+    color: white;
 }
 
-#sig{
+#both{
     display:none;
 }
+
 #logo{
+    display:block;
     margin: 20px 0px 20px 30px;
 }
 
@@ -555,16 +556,17 @@ nav a:hover{
         font-size:5vw;
     }
     
-    #sig{
-        display:inline-block;
+    #both{
+        display:block;
         width:6em;
         padding-bottom:0px;
         align-items:left;
-        margin:10px 0px 20px 90px
+        margin: 1vh 0vw 0vh 2vw;
+        filter:none;
     }
     
     #logo{
-        margin: 20px 0px 20px 30px;
+        display:none;
     }
 
 
@@ -677,18 +679,6 @@ nav a:hover{
   
     .dtd-quarantine{
       background-attachment: fixed;
-    }
-
-    #sig{
-        display:inline-block;
-        width:5em;
-        padding-bottom:0px;
-        align-items:left;
-        margin:10px 0px 20px 120px
-    }
-    
-    #logo{
-        margin: 20px 0px 20px 30px;
     }
 }
 

@@ -124,13 +124,15 @@ footer{
 .socials img{
     width:7vw;
 }
-#sig{
+
+#both{
     display:none;
 }
-#logo{
-    margin: 20px 0px 20px 30px;
-} 
 
+#logo{
+    display:block;
+    margin: 20px 0px 20px 30px;
+}
 button{
       font-size:4vw;
       border: 3px white solid;
@@ -238,16 +240,18 @@ nav a:hover{
     nav ul{
         padding-right:30px;
     }
-    #sig{
-        display:inline-block;
+
+    #both{
+        display:block;
         width:6em;
         padding-bottom:0px;
         align-items:left;
-        margin:10px 0px 20px 90px
+        margin: 1vh 0vw 0vh 2vw;
+        filter:none;
     }
     
     #logo{
-        margin: 20px 0px 20px 30px;
+        display:none;
     }
 
     .container{
@@ -374,23 +378,15 @@ nav a:hover{
         background-image: url("../images/photography/p1.jpg");
         height:105vh;
     }
-
-    #sig{
-        display:inline-block;
-        width:5em;
-        padding-bottom:0px;
-        align-items:left;
-        margin:10px 0px 20px 120px
-    }
-    
-    #logo{
-        margin: 20px 0px 20px 30px;
-    }
 }
 
 
 @media screen and (prefers-reduced-motion: reduce) {
     nav a:hover{
         animation:none;
+    }
+
+    .container{
+        background-attachment:scroll;
     }
 }

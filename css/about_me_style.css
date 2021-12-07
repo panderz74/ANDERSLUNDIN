@@ -149,10 +149,12 @@ footer{
     width:7vw;
 }
 
-#sig{
+#both{
     display:none;
 }
+
 #logo{
+    display:block;
     margin: 20px 0px 20px 30px;
 }
 
@@ -314,16 +316,17 @@ a:hover{
         margin:0px 15vw 0px 10vw;
     }
 
-    #sig{
-        display:inline-block;
+    #both{
+        display:block;
         width:6em;
         padding-bottom:0px;
         align-items:left;
-        margin:10px 0px 20px 90px
+        margin: 1vh 0vw 0vh 2vw;
+        filter:none;
     }
     
     #logo{
-        margin: 20px 0px 20px 30px;
+        display:none;
     }
 
     .photography{
@@ -517,17 +520,6 @@ a:hover{
 
     #somep p{
         font-size: 1.5vw;
-    }
-    #sig{
-        display:inline-block;
-        width:5em;
-        padding-bottom:0px;
-        align-items:left;
-        margin:10px 0px 20px 120px
-    }
-    
-    #logo{
-        margin: 20px 0px 20px 30px;
     }
 
 } 
