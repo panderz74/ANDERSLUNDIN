@@ -219,7 +219,6 @@ a:hover{
         display:none;
     }
 
-
     .socials img{
         width:5vw;
     }
@@ -323,21 +322,22 @@ a:hover{
         grid-column: 1 / span 4;
     }
     
-    /* [1] The container */
     .zoom {
-        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+        overflow: hidden;
         border: black 5px;
         margin-bottom:20px;
     }
   
-    /* [2] Transition property for smooth transformation of images */
     .zoom img {
         transition: transform .5s ease;
     }
   
-    /* [3] Finally, transforming the image when container gets hovered */
     .zoom:hover img {
         transform: scale(1.5);
+    }
+
+    #both{
+        margin: 0.3vh 0vw 0vh 2vw;
     }
 }
 

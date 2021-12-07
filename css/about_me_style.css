@@ -522,6 +522,9 @@ a:hover{
         font-size: 1.5vw;
     }
 
+    #both{
+        margin: 0.3vh 0vw 0vh 2vw;
+    }
 } 
 
 @media screen and (prefers-reduced-motion: reduce) {

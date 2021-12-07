@@ -378,6 +378,10 @@ nav a:hover{
         background-image: url("../images/photography/p1.jpg");
         height:105vh;
     }
+    
+    #both{
+        margin: 0.3vh 0vw 0vh 2vw;
+    }
 }
 
 

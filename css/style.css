@@ -680,6 +680,10 @@ nav a:hover{
     .dtd-quarantine{
       background-attachment: fixed;
     }
+
+    #both{
+        margin: 0.3vh 0vw 0vh 2vw;
+    }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
